@@ -1,11 +1,22 @@
+/* ① Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Playfair+Display:wght@400;600;700&display=swap');
+
+/* ② Tailwind base import */
 @import "tailwindcss";
 
+/* ③ Tailwind v4 폰트 테마 정의 */
+@theme {
+  --font-kor: "Do Hyeon", sans-serif;
+  --font-eng: "Playfair Display", serif;
+}
 
+/* ④ 전역 스타일 */
 html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
   color: white;
   overflow: auto;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

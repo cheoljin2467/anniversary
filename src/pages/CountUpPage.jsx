@@ -15,7 +15,7 @@ export default function CountUpPage() {
   };
 
   return (
-    <div className="absolute inset-0 flex flex-col items-center justify-center bg-black text-center overflow-hidden">
+    <div className="absolute font-kor inset-0 flex flex-col items-center justify-center bg-black text-center overflow-hidden">
       {/* 🔹 CountUp 숫자 */}
 
       <div className="z-10">
@@ -64,7 +64,7 @@ export default function CountUpPage() {
             <TextType 
               text={["벌써 3주년", "3년은 1097일", "1097일은 26,328시간", "26,328시간은 1,579,680분", "1,579,680분은 94,780,000초"  ]}
               typingSpeed={75}
-              pauseDuration={1000}
+              pauseDuration={800}
               showCursor={true}
               cursorCharacter="|"
             />

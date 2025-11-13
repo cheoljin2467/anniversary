@@ -16,7 +16,7 @@ export default function LoginPage() {
   const MEET_CORRECT = "2022-11-20";
 
   return (
-    <div className="relative min-h-screen bg-white via-zinc-950 to-black text-white flex items-center justify-center px-4 overflow-hidden">
+    <div className="relative font-kor min-h-screen bg-white via-zinc-950 to-black text-white flex items-center justify-center px-4 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Ballpit
           count={150}
