@@ -8,6 +8,7 @@
 @theme {
   --font-kor: "Do Hyeon", sans-serif;
   --font-eng: "Playfair Display", serif;
+   --font-soria: "Soria", serif;
 }
 
 /* ④ 전역 스타일 */
@@ -18,5 +19,12 @@ html, body, #root {
   color: white;
   overflow: auto;
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Soria";
+  src: url("/src/assets/SoriaFont.ttf") format("opentype");
+  font-weight: normal;
   font-style: normal;
 }
